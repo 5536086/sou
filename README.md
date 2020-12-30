@@ -11,7 +11,7 @@
 
 
 
-### 新增黑暗模式（理论上支持）
+### 新增黑暗模式（理论上支持，跟随系统）
 ![黑暗模式](https://cdn.jsdelivr.net/gh/5iux/sou/dark.jpg)   
 
 
@@ -20,6 +20,8 @@
 
 [Releases](https://github.com/5iux/sou/releases)  
 
+##  Gitee同步更新
+[https://gitee.com/cn5iux/sou](https://gitee.com/cn5iux/sou)   
 
 
 
@@ -45,9 +47,18 @@
 
 ### 天气组件  
 
-[天气API地址](https://dev.heweather.com/widget/simple)
+[天气API地址](https://dev.qweather.com/widget/)
 
 
+### 背景图   
+已默认添加随机加载bing背景，不需要刻意在index.php中删除；   
+
+如使用自定义背景，可以删除bing背景后在页面内添加以下代码：   
+```html
+<style> 
+   body{background:url("https://cn.bing.com//th?id=OHR.HuntsMesa_JA-JP3140979616_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp") no-repeat center/cover;}
+</style>
+```
 
 ## 其他
 我这个只是个示例，有需求还是自己改，不喜欢php想换成js也可以；以前自己试过反代，还是小范围用的，没两天弄死一个好域名，不敢了，上谷歌大家还是自备梯子吧，这里不提供了。  
